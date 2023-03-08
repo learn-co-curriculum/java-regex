@@ -56,7 +56,7 @@ understand the syntax a little bit better.
 In its simplest form, a regex can look for an exact literal piece of text. For
 example, if given the sentence:
 
-```plaintext
+```text
 Twinkle twinkle little star, how I wonder what you are.
 ```
 
@@ -90,7 +90,7 @@ looking for a digit that it is a lowercase 'd' and not an uppercase 'D'!
 Let's look at some examples to showcase these metacharacters. In the Regex 101
 tool, provide the following test string:
 
-```plaintext
+```text
 September 15th is National Online Learning Day!
 ```
 
@@ -104,7 +104,7 @@ Time to be a little more specific and narrow our search using the `.`. In the
 "Regular Expression" text box in Regex 101, let's change the pattern to `".s"`
 and see what happens now.
 
-```plaintext
+```text
 is
 ```
 
@@ -115,7 +115,7 @@ Given our example test string, it will only match the pattern with "is".
 Let's change it up one more time before we move onto the next metacharacter. In
 the "Regular Expression" text box in Regex 101, change the pattern to `"..a"`.
 
-```plaintext
+```text
  Na
 ona
 Lea
@@ -139,7 +139,7 @@ highlighted.
 
 Now modify the test string to this:
 
-```plaintext
+```text
 September 15th
 is National Online Learning Day!
 ```
@@ -218,7 +218,7 @@ sign symbol, `$`.
 To help us truly look at how anchors work, let's change our "Test String" in
 Regex 101 to the following:
 
-```plaintext
+```text
 A rose is a rose is a rose
 ```
 
@@ -228,7 +228,7 @@ and see what happens.
 We get three matches since we are looking for either the character `A` or `a`
 followed by a space and then the word `rose`:
 
-```plaintext
+```text
 A rose
 a rose
 a rose
@@ -266,7 +266,7 @@ table below:
 Let's look at some examples to showcase these quantifiers. In the Regex 101
 tool, replace the test string with the following:
 
-```plaintext
+```text
 Hmm that is interesting that hummingbirds can fly backwards
 ```
 
