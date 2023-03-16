@@ -96,9 +96,10 @@ September 15th is National Online Learning Day!
 
 #### The dot (.)
 
-The special character `.` will match any single character. Let's enter the
-pattern `"."` in the "Regular Expression" text box in Regex 101. Notice how
-every single character, including the whitespace and punctuation is highlighted!
+The special character `.` will match any single character _besides line
+terminators_. Let's enter the pattern `"."` in the "Regular Expression" text box
+in Regex 101. Notice how every single character, including the whitespace and
+punctuation is highlighted!
 
 Time to be a little more specific and narrow our search using the `.`. In the
 "Regular Expression" text box in Regex 101, let's change the pattern to `".s"`
